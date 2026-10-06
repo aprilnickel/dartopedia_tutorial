@@ -1,6 +1,6 @@
-// TODO: Put public facing types in this file.
-
-/// Checks if you are awesome. Spoiler: you are.
-class Awesome {
-  bool get isAwesome => true;
+class CommandRunner {
+  /// Runs the command line application logic with given arguments.
+  Future<void> run(List<String> arguments) async {
+    print('CommandRunner is running with arguments: $arguments');
+  }
 }
